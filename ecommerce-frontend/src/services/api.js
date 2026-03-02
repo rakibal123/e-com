@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: process.env.NEXT_PUBLIC_API_URL || 'https://ecommerce-backend-zsfk.onrender.com',
+    baseURL: process.env.NEXT_PUBLIC_API_URL || 'https://e-com-one-theta-18.vercel.app/',
 });
 
 // Add a request interceptor to attach the JWT token
